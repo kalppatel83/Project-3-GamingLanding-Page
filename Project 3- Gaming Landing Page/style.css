@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --pure-white: #fff;
+  --subtle-white: #b3b0b2;
+  --primary-text-white: #8e8888;
+  --primary-text-black: #121212;
+  --text-orange: #f47156;
+  --primary-btn-color: #f4694c;
+  --primary-btn-text: #fdefeb;
+}
+
+html {
+  font-size: 62.3%;
+  font-family: "Roboto", sans-serif;
+}
+nav {
+  max-width: 1280px;
+  margin: 2rem auto;
+}
+.logo {
+  max-width: 100%;
+}
+.navigation-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-content {
+  display: flex;
+}
+.nav-list {
+  display: flex;
+  align-items: center;
+  margin-left: 7rem;
+}
+.nav-list-items {
+  list-style-type: none;
+  font-size: 1.7rem;
+  margin-left: 3rem;
+  font-weight: 400;
+}
+.nav-list-items:hover {
+  cursor: pointer;
+}
+
+.btn {
+  padding: 1.2rem 1.8rem;
+  color: var(--primary-btn-text);
+  background: var(--primary-btn-color);
+  border: none;
+  cursor: pointer;
+}
+.btn-signIn {
+  background: none;
+  color: #f4694c;
+}
