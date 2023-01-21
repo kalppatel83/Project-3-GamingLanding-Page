@@ -59,3 +59,25 @@ nav {
   background: none;
   color: #f4694c;
 }
+
+.hero {
+  max-width: 1280px;
+  margin: 0rem auto;
+}
+
+.hero-title {
+  font-size: 6rem;
+  margin-top: 10rem;
+}
+.hero-description {
+  font-size: 1.5rem;
+  letter-spacing: 1.3px;
+}
+.hero-cta-button {
+  margin-top: 2rem;
+}
+.border-btn {
+  border: 2px solid var(--pure-white);
+  background: none;
+  color: (--primary-btn-text);
+}
