@@ -18,12 +18,22 @@ html {
   font-size: 62.3%;
   font-family: "Roboto", sans-serif;
 }
+main {
+  background-image: url(./images/Photos/futuristic-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  max-width: 100%;
+  padding-bottom: 5rem;
+}
 nav {
   max-width: 1280px;
-  margin: 2rem auto;
+  margin: 0 auto;
+  padding: 2rem;
 }
 .logo {
-  max-width: 100%;
+  /* max-width: 100%; */
 }
 .navigation-bar {
   display: flex;
@@ -43,6 +53,7 @@ nav {
   font-size: 1.7rem;
   margin-left: 3rem;
   font-weight: 400;
+  color: var(--pure-white);
 }
 .nav-list-items:hover {
   cursor: pointer;
@@ -54,30 +65,53 @@ nav {
   background: var(--primary-btn-color);
   border: none;
   cursor: pointer;
+  /* margin-left: 1rem; */
 }
 .btn-signIn {
   background: none;
   color: #f4694c;
 }
-
+.btn-signIn:hover {
+  padding: 1.2rem 1.8rem;
+  background-color: #f4694c;
+  color: #fff;
+}
 .hero {
   max-width: 1280px;
-  margin: 0rem auto;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  color: var(--pure-white);
 }
-
-.hero-title {
-  font-size: 6rem;
-  margin-top: 10rem;
+.hero-left {
+  margin-left: 2em;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
-.hero-description {
-  font-size: 1.5rem;
-  letter-spacing: 1.3px;
+.hero-title-text {
+  font-size: 5.8rem;
+  margin-top: 4rem;
 }
-.hero-cta-button {
-  margin-top: 2rem;
+.hero-subtext {
+  font-size: 1.6rem;
+  color: var(--subtle-white);
+  line-height: 1.5;
+  letter-spacing: 1.2px;
+}
+.btn:hover {
+  background: #e86045;
+}
+.btn-fill:hover {
+  background: #e86045;
 }
 .border-btn {
-  border: 2px solid var(--pure-white);
   background: none;
-  color: (--primary-btn-text);
+  border: 1px solid var(--primary-btn-text);
+  margin-left: 2rem;
+}
+.border-btn:hover {
+  border: 1px solid transparent;
+  outline: none;
+  background: var(--primary-btn-color);
 }
