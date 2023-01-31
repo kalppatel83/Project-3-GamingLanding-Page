@@ -23,7 +23,7 @@ main {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
+  /* position: absolute; */
   max-width: 100%;
   padding-bottom: 5rem;
 }
@@ -88,6 +88,10 @@ nav {
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  width: 50%;
+}
+.hero-right {
+  width: 50%;
 }
 .hero-title-text {
   font-size: 5.8rem;
@@ -114,4 +118,30 @@ nav {
   border: 1px solid transparent;
   outline: none;
   background: var(--primary-btn-color);
+}
+.hero-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  position: relative;
+}
+.hero-right-text {
+  position: absolute;
+  top: 17rem;
+  /* text-align: center; */
+  font-size: 2rem;
+}
+.hero-icon-1 {
+  position: relative;
+  top: 8.5rem;
+  right: 5rem;
+}
+.hero-icon-2 {
+  position: relative;
+  top: 14rem;
+  left: 14rem;
+}
+.game-section {
+  max-width: ;
 }
