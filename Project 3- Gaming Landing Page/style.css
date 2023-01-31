@@ -143,5 +143,58 @@ nav {
   left: 14rem;
 }
 .game-section {
-  max-width: ;
+  max-width: 1280px;
+  margin: 5rem auto;
+}
+.game-section-title {
+  font-size: 4rem;
+  text-align: center;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.card-container {
+  max-width: 1200px;
+  margin-top: 3rem;
+  display: flex;
+  gap: 2rem;
+}
+.game-card-img {
+  width: 290px;
+  height: 200px;
+  background-size: cover;
+  /* position: relative; */
+}
+.game-card {
+  max-width: 290px;
+  max-height: 200px;
+  position: relative;
+  cursor: pointer;
+}
+.game-card:hover {
+  scale: 105%;
+}
+
+.card-text-container {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  position: absolute;
+  justify-content: space-around;
+  backdrop-filter: blur(8px);
+  width: 100%;
+  bottom: 0;
+}
+
+.card-heading {
+  font-size: 2.2rem;
+  font-weight: 500;
+  color: var(--primary-btn-text);
+}
+.card-subheading {
+  margin: 10px 0;
+  font-size: 1.7rem;
+  color: var(--subtle-white);
+}
+.image-stars > img {
+  width: 1.5rem;
 }
