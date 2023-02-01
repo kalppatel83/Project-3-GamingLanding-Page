@@ -198,3 +198,51 @@ nav {
 .image-stars > img {
   width: 1.5rem;
 }
+
+.feature-section {
+  max-width: 1280px;
+  margin: 10rem auto;
+  display: flex;
+  align-items: center;
+}
+.feature-left {
+  width: 50%;
+}
+.feature-right {
+  width: 50%;
+}
+
+.feature-left > img {
+  width: 50rem;
+  height: 38rem;
+  background-size: cover;
+}
+.feature-title {
+  font-size: 3.9rem;
+  line-height: 1.3;
+}
+.feature-subtitle {
+  font-size: 1.6rem;
+  color: #727272;
+  line-height: 1.5;
+  margin: 1.3rem 0;
+}
+.feature-btn {
+  margin-top: 2rem;
+}
+
+.feature-fill {
+  background: var(--primary-btn-color);
+  padding: 1.5rem 3rem;
+  border: 2px solid transparent;
+}
+.feature-transparent {
+  background: none;
+  color: var(--text-orange);
+  border: 2px solid var(--text-orange);
+  padding: 1.5rem 3rem;
+}
+.feature-transparent:hover {
+  background: var(--primary-btn-color);
+  color: var(--primary-btn-text);
+}
