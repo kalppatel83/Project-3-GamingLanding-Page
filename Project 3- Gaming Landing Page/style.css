@@ -213,9 +213,12 @@ nav {
 }
 
 .feature-left > img {
-  width: 50rem;
-  height: 38rem;
+  width: 57rem;
+  height: 40rem;
   background-size: cover;
+}
+.feature-left > img:hover {
+  scale: 105%;
 }
 .feature-title {
   font-size: 3.9rem;
@@ -235,6 +238,7 @@ nav {
   background: var(--primary-btn-color);
   padding: 1.5rem 3rem;
   border: 2px solid transparent;
+  margin-right: 2rem;
 }
 .feature-transparent {
   background: none;
@@ -245,4 +249,72 @@ nav {
 .feature-transparent:hover {
   background: var(--primary-btn-color);
   color: var(--primary-btn-text);
+}
+.game-recommendation {
+  max-width: 1280px;
+  margin: 3rem auto;
+}
+.game-title-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.game-title {
+  font-size: 3.8rem;
+}
+.left-arrow {
+  padding: 2rem 1.3rem;
+  background: #fde1db;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+.right-arrow {
+  cursor: pointer;
+  background: var(--primary-btn-color);
+  padding: 2rem 1.3rem;
+  margin-right: 6rem;
+}
+.game-cards-container {
+  margin: 5rem auto;
+}
+
+.game-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 6rem;
+}
+.game-row:nth-child(1) {
+  margin-bottom: 3rem;
+}
+.game-cards {
+  display: flex;
+  align-items: center;
+  gap: 1.8rem;
+  max-width: 500px;
+}
+.game-cards > img {
+  max-width: 200px;
+  background-position: center;
+  background-size: cover;
+}
+.game-cards > img:hover {
+  scale: 110%;
+}
+.game-card-title {
+  font-size: 2.4rem;
+}
+.game-card-span {
+  font-size: 1.3rem;
+  color: var(--text-orange);
+}
+.game-card-para {
+  font-size: 1.5rem;
+  color: #727272;
+}
+.card-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.5rem;
 }
