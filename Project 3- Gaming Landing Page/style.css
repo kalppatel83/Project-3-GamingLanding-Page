@@ -318,3 +318,42 @@ nav {
   align-items: flex-start;
   gap: 1.5rem;
 }
+footer {
+  background: #000;
+  color: #fff;
+}
+.footer-container {
+  padding: 2rem 0;
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-logo {
+  margin-bottom: 1rem;
+}
+.footer-text {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+.footer-lists {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.footer-lists:nth-child(5) {
+  margin-right: 6rem;
+}
+.footer-list-title {
+  font-size: 2rem;
+}
+.footer-list-items {
+  list-style: none;
+  margin-bottom: 0.7rem;
+}
+.footer-list-items > a {
+  text-decoration: none;
+  color: var(--subtle-white);
+  font-size: 1.3rem;
+}
