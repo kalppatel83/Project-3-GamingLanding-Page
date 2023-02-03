@@ -318,6 +318,51 @@ nav {
   align-items: flex-start;
   gap: 1.5rem;
 }
+
+.unforgettable-banner-container {
+  max-width: 1536px;
+  margin: 0 auto;
+  position: relative;
+  background: #000;
+  filter: brightness(60%);
+}
+.unforgettable-banner-container:hover {
+  filter: brightness(100%);
+}
+.unforgettable-banner-container > img {
+  width: 100%;
+  background-size: cover;
+}
+
+.unforgettable-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  position: absolute;
+  top: 20%;
+  left: 35%;
+}
+.unforgettable-title {
+  /* position: absolute; */
+  font-size: 5rem;
+  color: #fff;
+  text-transform: capitalize;
+  text-align: center;
+  line-height: 1.2;
+}
+.unforgettable-subtitle {
+  font-size: 1.8rem;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 2.2rem;
+}
+.unforgettable-btn {
+  padding: 1.6rem 5rem;
+  font-size: 2rem;
+  font-weight: 600;
+}
 footer {
   background: #000;
   color: #fff;
